@@ -1,7 +1,7 @@
 import axios from "axios";
 import {logDOM} from "@testing-library/react";
 
-const baseUrl = 'http://localhost:5000'
+const baseUrl = 'https://todoapp-a6u1.onrender.com'
 
 const getAllToDo = (setToDo)=>{
     axios
